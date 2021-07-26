@@ -1,0 +1,25 @@
+H:\Project Art Gallery\Art Gallery\Art Gallery\obj\Debug\Art Gallery.csprojAssemblyReference.cache
+H:\Project Art Gallery\Art Gallery\Art Gallery\obj\Debug\Art_Gallery.Properties.Resources.resources
+H:\Project Art Gallery\Art Gallery\Art Gallery\obj\Debug\Art_Gallery.UI_Layer.LogIn.resources
+H:\Project Art Gallery\Art Gallery\Art Gallery\obj\Debug\Art Gallery.csproj.GenerateResource.cache
+H:\Project Art Gallery\Art Gallery\Art Gallery\bin\Debug\Art Gallery.exe.config
+H:\Project Art Gallery\Art Gallery\Art Gallery\bin\Debug\Art Gallery.exe
+H:\Project Art Gallery\Art Gallery\Art Gallery\bin\Debug\Art Gallery.pdb
+H:\Project Art Gallery\Art Gallery\Art Gallery\obj\Debug\Art Gallery.exe
+H:\Project Art Gallery\Art Gallery\Art Gallery\obj\Debug\Art Gallery.pdb
+H:\Project Art Gallery\Art Gallery\Art Gallery\obj\Debug\Art_Gallery.UI_Layer.Home.resources
+H:\Project Art Gallery\Art Gallery\Art Gallery\obj\Debug\Art_Gallery.UI_Layer.UploadWork.resources
+H:\Project Art Gallery\Art Gallery\Art Gallery\bin\Debug\MySql.Data.dll
+H:\Project Art Gallery\Art Gallery\Art Gallery\bin\Debug\Google.Protobuf.dll
+H:\Project Art Gallery\Art Gallery\Art Gallery\bin\Debug\BouncyCastle.Crypto.dll
+H:\Project Art Gallery\Art Gallery\Art Gallery\bin\Debug\Ubiety.Dns.Core.dll
+H:\Project Art Gallery\Art Gallery\Art Gallery\bin\Debug\Renci.SshNet.dll
+H:\Project Art Gallery\Art Gallery\Art Gallery\bin\Debug\MySql.Data.xml
+H:\Project Art Gallery\Art Gallery\Art Gallery\obj\Debug\Art_Gallery.UI_Layer.Registration.resources
+H:\Project Art Gallery\Art Gallery\Art Gallery\obj\Debug\Art Gallery.csproj.CopyComplete
+H:\Project Art Gallery\Art Gallery\Art Gallery\obj\Debug\Art_Gallery.UI_Layer.UserHome.resources
+H:\Project Art Gallery\Art Gallery\Art Gallery\obj\Debug\Art_Gallery.UI_Layer.DeliverArt.resources
+H:\Project Art Gallery\Art Gallery\Art Gallery\obj\Debug\Art_Gallery.UI_Layer.DeliveryManPage.resources
+H:\Project Art Gallery\Art Gallery\Art Gallery\obj\Debug\Art_Gallery.UI_Layer.ReciveArt.resources
+H:\Project Art Gallery\Art Gallery\Art Gallery\obj\Debug\Art_Gallery.UI_Layer.PersonalInfo.resources
+H:\Project Art Gallery\Art Gallery\Art Gallery\obj\Debug\Art_Gallery.UI_Layer.AdminProfile.resources

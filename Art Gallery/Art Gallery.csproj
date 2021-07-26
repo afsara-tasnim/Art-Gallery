@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3F84BA36-8F8B-428E-AD7D-5FD7FEFD7DBA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Art_Gallery</RootNamespace>
+    <AssemblyName>Art Gallery</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.19.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\Accepted.cs" />
+    <Compile Include="Entities\Artwork.cs" />
+    <Compile Include="Entities\BuyRecord.cs" />
+    <Compile Include="Entities\ReciveArt.cs" />
+    <Compile Include="Entities\Request.cs" />
+    <Compile Include="Entities\Users.cs" />
+    <Compile Include="Interfaces\IRepository.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\AcceptedRepository.cs" />
+    <Compile Include="Repository\ArtworkRepository.cs" />
+    <Compile Include="Repository\DataAccess.cs" />
+    <Compile Include="Repository\LoginRepository.cs" />
+    <Compile Include="Repository\RecieveArtRepository.cs" />
+    <Compile Include="Repository\RequestRepository.cs" />
+    <Compile Include="Repository\SignUpRepository.cs" />
+    <Compile Include="Repository\UsersRepository.cs" />
+    <Compile Include="Services\AcceptedService.cs" />
+    <Compile Include="Services\ArtworkService.cs" />
+    <Compile Include="Services\LoginService.cs" />
+    <Compile Include="Services\RecieveArtService.cs" />
+    <Compile Include="Services\RequestService.cs" />
+    <Compile Include="Services\SignUpService.cs" />
+    <Compile Include="Services\UsersService.cs" />
+    <Compile Include="UI Layer\AdminProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI Layer\AdminProfile.Designer.cs">
+      <DependentUpon>AdminProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Layer\DeliverArt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI Layer\DeliverArt.Designer.cs">
+      <DependentUpon>DeliverArt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Layer\DeliveryManPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI Layer\DeliveryManPage.Designer.cs">
+      <DependentUpon>DeliveryManPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Layer\Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI Layer\Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Layer\LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI Layer\LogIn.Designer.cs">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Layer\PersonalInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI Layer\PersonalInfo.Designer.cs">
+      <DependentUpon>PersonalInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Layer\ReciveArt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI Layer\ReciveArt.Designer.cs">
+      <DependentUpon>ReciveArt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Layer\Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI Layer\Registration.Designer.cs">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Layer\UploadWork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI Layer\UploadWork.Designer.cs">
+      <DependentUpon>UploadWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Layer\UserHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI Layer\UserHome.Designer.cs">
+      <DependentUpon>UserHome.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UI Layer\AdminProfile.resx">
+      <DependentUpon>AdminProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Layer\DeliverArt.resx">
+      <DependentUpon>DeliverArt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Layer\DeliveryManPage.resx">
+      <DependentUpon>DeliveryManPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Layer\Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Layer\LogIn.resx">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Layer\PersonalInfo.resx">
+      <DependentUpon>PersonalInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Layer\ReciveArt.resx">
+      <DependentUpon>ReciveArt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Layer\Registration.resx">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Layer\UploadWork.resx">
+      <DependentUpon>UploadWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Layer\UserHome.resx">
+      <DependentUpon>UserHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abstract-painting-10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DSC09786-Copy.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
